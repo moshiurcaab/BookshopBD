@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="115096" started-at="2020-06-29T04:15:32Z" finished-at="2020-06-29T04:17:27Z">
+    <groups>
+    </groups>
+    <test name="Flight Booking  Page" duration-ms="71227" started-at="2020-06-29T04:15:32Z" finished-at="2020-06-29T04:16:43Z">
+      <class name="Academy.FlightBooking">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.FlightBooking@6f27a732]" name="initialize" is-config="true" duration-ms="28787" started-at="2020-06-29T10:15:32Z" finished-at="2020-06-29T10:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="FlightPageInformation()[pri:0, instance:Academy.FlightBooking@6f27a732]" name="FlightPageInformation" duration-ms="4608" started-at="2020-06-29T10:16:00Z" finished-at="2020-06-29T10:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightPageInformation -->
+        <test-method status="PASS" signature="Journey()[pri:0, instance:Academy.FlightBooking@6f27a732]" name="Journey" duration-ms="23380" started-at="2020-06-29T10:16:05Z" finished-at="2020-06-29T10:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Journey -->
+        <test-method status="PASS" signature="passenger()[pri:0, instance:Academy.FlightBooking@6f27a732]" name="passenger" duration-ms="14140" started-at="2020-06-29T10:16:28Z" finished-at="2020-06-29T10:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passenger -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.FlightBooking@6f27a732]" name="teardown" is-config="true" duration-ms="279" started-at="2020-06-29T10:16:43Z" finished-at="2020-06-29T10:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.FlightBooking -->
+    </test> <!-- Flight Booking  Page -->
+    <test name="Validating navigation Bar" duration-ms="42905" started-at="2020-06-29T04:16:44Z" finished-at="2020-06-29T04:17:27Z">
+      <class name="Academy.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@19d481b]" name="initialize" is-config="true" duration-ms="23209" started-at="2020-06-29T10:16:44Z" finished-at="2020-06-29T10:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="PageNavigation()[pri:0, instance:Academy.validateNavigationBar@19d481b]" name="PageNavigation" duration-ms="92" started-at="2020-06-29T10:17:07Z" finished-at="2020-06-29T10:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageNavigation -->
+        <test-method status="PASS" signature="windowhandle()[pri:0, instance:Academy.validateNavigationBar@19d481b]" name="windowhandle" duration-ms="12070" started-at="2020-06-29T10:17:07Z" finished-at="2020-06-29T10:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowhandle -->
+        <test-method status="PASS" signature="Titlepage()[pri:0, instance:Academy.validateNavigationBar@19d481b]" name="Titlepage" duration-ms="3022" started-at="2020-06-29T10:17:19Z" finished-at="2020-06-29T10:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Titlepage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@19d481b]" name="teardown" is-config="true" duration-ms="4511" started-at="2020-06-29T10:17:22Z" finished-at="2020-06-29T10:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateNavigationBar -->
+    </test> <!-- Validating navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test name="BookShopBD">
+    <classes>
+      <class name="Academy.runpage1"/>
+    </classes>
+  </test> <!-- BookShopBD -->
+  <test name="BookShopBD(failed)">
+    <classes>
+      <class name="Academy.runpage1">
+        <methods>
+          <include name="filterbookbyauthor"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="checkout"/>
+        </methods>
+      </class> <!-- Academy.runpage1 -->
+    </classes>
+  </test> <!-- BookShopBD(failed) -->
+</suite> <!-- Failed suite [Suite] -->
